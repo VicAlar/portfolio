@@ -1,11 +1,15 @@
-
+import Header from './components/header/Header'
+import Nav from './components/nav/Nav'
+import About from './components/About'
 
 function App() {
 
   return (
-    <div>
-      <h1>Hola mundo</h1>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <About />
+    </>
   )
 }
 
